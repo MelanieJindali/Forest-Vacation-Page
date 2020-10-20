@@ -69,3 +69,9 @@ nav ul li a {
   top: 0;
   right: 0;
 }
+
+.open-nav {
+  visibility: unset;
+  opacity: 1;
+  transform: translateX(0);
+}
