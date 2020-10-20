@@ -231,30 +231,42 @@ p.test-auth {
 }
 
 @media (min-width: 550px) {
+	.menu,
+	.exit {
+		display: none;
+	}
 
-  .menu, .exit {
-    display: none;
-  }
+	header {
+		padding: 1em;
+	}
 
-  header {
-    padding: 1em;
-  }
+	ul.nav {
+		visibility: unset;
+		opacity: 1;
+		background: none;
+		display: flex;
+		margin: 0;
+		padding: 0;
+		position: unset;
+		height: auto;
+	}
 
-  ul.nav {
-    visibility: unset;
-    opacity: 1;
-    background: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    position: unset;
-    height: auto;
-  }
+	ul.nav li a {
+		font-size: 0.9em;
+		padding: 0 1em;
+		font-weight: normal;
+	}
 
-  ul.nav li a {
-    font-size: .9em;
-    padding: 0 1em;
-    font-weight: normal;
-  }
+	ul.nav li:last-child a {
+		padding-right: 0;
+	}
 
+	ul.nav .active a {
+		font-weight: bold;
+	}
+
+	ul.nav .res a {
+		font-weight: bold;
+		color: #72a84a;
+	}
 }
