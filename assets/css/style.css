@@ -230,7 +230,7 @@ p.test-auth {
 	opacity: 0.1;
 }
 
-/* Tablet screen */
+/* Tablet */
 @media (min-width: 550px) {
 	.menu,
 	.exit {
@@ -279,6 +279,7 @@ p.test-auth {
 	}
 }
 
+
 @media (min-width: 650px) {
 	ul.features {
 		width: 90%;
@@ -288,6 +289,7 @@ p.test-auth {
 	}
 }
 
+/* Desktop */
 @media (min-width: 900px) {
 	.wrapper {
 		text-align: left;
@@ -303,23 +305,38 @@ p.test-auth {
 
 	.last-container {
 		padding: 0 4em;
-  }
-  
-  .main-copy {
-    width: 40%;
-  }
+	}
 
-  p.subtitle {
-    margin: 0 0 1em;
-    padding: 0;
-  }
+	.main-copy {
+		width: 40%;
+	}
 
-  h1 {
-    font-size: 3em;
-    margin-top: 0;
-  }
+	p.subtitle {
+		margin: 0 0 1em;
+		padding: 0;
+	}
 
-  ul.featured-cabins {
-    width: 70%;
-  }
+	h1 {
+		font-size: 3em;
+		margin-top: 0;
+	}
+
+	ul.featured-cabins {
+		width: 70%;
+	}
+
+	.main-quote,
+	.main-cite {
+		text-align: center;
+	}
+
+	.main-quote {
+		font-size: 3em;
+		margin-top: 2em;
+	}
+
+	.main-cite {
+		font-size: 1.5em;
+		margin-bottom: 3em;
+	}
 }
