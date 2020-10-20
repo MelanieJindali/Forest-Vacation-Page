@@ -103,11 +103,63 @@ h1 span {
 .cta {
 	display: inline-block;
 	background: #72a84a;
-	color: #eeeeee;
+	color: white;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-weight: bold;
 	padding: 1em;
 	margin-bottom: 3em;
 	margin-top: 1em;
+}
+
+ul.featured-cabins {
+	width: 60%;
+	margin: 0 auto;
+}
+
+ul.featured-cabins li {
+	margin-bottom: 3em;
+}
+
+.cabin-img {
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cabin-title {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.cabin-desc,
+ul.features li p,
+.left p {
+	line-height: 2em;
+	font-size: 0.9em;
+	margin-bottom: 2em;
+}
+
+.cabin-cta {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+}
+
+.cabin-cta:after {
+	position: absolute;
+	content: '';
+	bottom: -12px;
+	background: white;
+	width: 100%;
+	height: 1px;
+}
+
+.cabin-cta span {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+}
+
+.cabin-cta img {
+	width: 15px;
 }
