@@ -49,3 +49,22 @@ ul.featured-cabins {
 .cabin-cta:after {
   background: black;
 }
+
+/* Desktop */
+@media (min-width: 900px) {
+  .hero {
+      padding: 4em;
+  }
+  
+  ul.featured-cabins {
+      place-content: flex-start;
+  }
+  
+  .bread-wrapper {
+      display: unset;
+  }
+  
+  .sub-desc {
+      width: 100%;
+  }
+}
